@@ -1,0 +1,35 @@
+<!<!doctype html>
+	<html>
+	  <head>
+	    <title>JavaScript</title>
+		<link href="./validation.css" type="text/css" rel="stylesheet">
+		<link href="./form_valid.js" type="text/css" rel="stylesheet">
+		
+	  </head>
+	
+	  <body>
+	    <h1> My Validation Form</h1>
+		<form name = "registration_form" onsubmit="validation_function()">
+		First Name:
+		<br>
+		<input type="text" name="firstname" placeholder="Input First Name" required pattern="[A-Za-z]+">
+		<br>
+		Last Name:
+		<br>
+		<input type="text" name="lastname" placeholder="Input Last Name" required pattern="[A-Za-z]+">
+		<br>
+		Email:
+		<br>
+		<input type="email" name="email">
+		<br>
+		Phone Number:
+		<br>
+		<input type="tel" name="tel" size=10 required pattern="[0-9]{3}[ -][0-9]{3}[ -][0-9]{4}"]>
+		<br>
+		<button type="submit" value="Submit">Submit</button>
+		<br>
+		<button type="reset" value="Reset">Reset</button>
+		</form>
+	
+	  </body>
+	</html>

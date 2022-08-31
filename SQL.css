@@ -1,0 +1,143 @@
+body {
+	background-image: url("https://pixteller.com/assets/storage/designs_images/2017-07-30/11/backgrounds-passion-simple-background-image-1-597d9d0341fc4.png");
+	background-size: cover;
+    margin:0;
+    padding:0;
+	height: 100%;
+	background-repeat: repeat-y;
+}
+	
+header {
+	background-color: #BDE3E6;
+	min-height: 80px;
+	text-align: center;
+	}
+
+h1 {
+	color: white;
+	font-size: 40px;
+	vertical-align: middle;
+    display: inline-block;	
+}
+
+h3 {
+	text-align: center;
+	padding-bottom: 0px;
+	color: #cf7f9f;
+
+}
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+
+.nav li {
+    float: right;
+}
+
+.nav li a {
+    display: block;
+    color: #ACDBE1;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	font-weight: bold;
+	font-family: Bookman;
+	font-size: 19px;
+}
+
+.nav li a:hover {
+    background-color: #e4f3f6;
+}
+
+#main {
+	height: 100%;
+	overflow: hidden;
+
+	}
+
+#leftsidebar {
+	width:10%;
+	min-height: 700px;
+	float: left;
+	border-right: 2px solid #f6d4b3;
+	overflow:hidden;
+}
+ul {
+	list-style-type: none;
+}
+
+.links li a {
+	text-decoration: none;
+	font-size: 10px; 
+	font-family: Georgia;
+	color: #ac6eee;
+
+}
+.links a:visited {
+	color: #d3b3f6;
+}
+.links li {
+	margin: 0;
+	padding-right: 0px;
+}
+
+
+#column1 {
+	width:75%;
+	min-height: 700px;
+	float: left;
+	border-right: 2px solid #f6d4b3;
+	overflow:hidden;
+
+	
+}
+#column1 p {
+	text-align: center;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: #bf90f2;
+
+
+}
+#rightsidebar {
+	width:14%;
+	min-height: 700px;
+	float: right;
+	overflow:hidden;
+	
+}
+
+
+footer	{
+	background-color: #F7CFC7;
+	height: 70px;
+	width: 100%;
+	opacity: 1;
+	bottom:0;
+	overflow: hidden;
+	position: absolute;
+	}
+	
+.list {
+    list-style-type: none;
+
+}
+.list li {
+	margin-right: 10px;
+	display: inline;
+	color: grey;
+	vertical-align: middle;
+	float: right;
+}
+#mail {
+	float: left;
+}
+
+.list li a  {
+    text-decoration: none;
+	color: grey;
+}

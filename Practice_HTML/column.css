@@ -1,0 +1,25 @@
+{
+		margin: 0px;
+		padding: 0px;
+	}
+
+#container{
+	width: 990px;
+	margin: 10px auto;
+	}
+	
+header{
+	background-color: red;
+	min-height: 80px;
+	}
+
+#main{
+	background-color:  white;
+	min-height: 300px;
+	overflow: hidden;
+	}
+
+footer{
+	background-color: #090;
+	min-height: 60px;
+	}

@@ -1,0 +1,72 @@
+body {
+    background: white;
+    width: 800px;
+    margin: auto;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+	font-family:courier;
+	background:lightskyblue;	
+
+}
+h2 {
+	font-family:courier;
+	background:lightskyblue;
+	color: white;
+	padding-left:5px;
+}
+h3 {
+	font-family:monospace;
+	font-size:12px;
+
+}
+h4 {
+	font-family: courier;
+}
+ul {
+	font-family: monospace;
+	font-size: 15px;
+}
+#intro {
+	color: white;
+    text-align: center;
+	font-family:courier;
+	background:lightskyblue;
+
+}
+.images{
+	display:inline-block;
+}
+.images p {
+	text-align:center;
+	color: gray;
+    border: 1px solid gray;
+    padding: 10px;
+}
+#profile {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+table {
+	border-bottom:1px ridge black; 
+	width:100%;
+	text-align: center;
+	border-collapse: collapse;
+}
+td {
+	border-bottom: 2px ridge lightsteelblue;
+	background: whitesmoke;
+	font-family: courier;
+	
+}
+th {
+	border-bottom: 2px ridge lightsteelblue;
+	background: ghostwhite;
+	font-family: courier;
+
+}
+
+
